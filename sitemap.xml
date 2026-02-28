@@ -2,33 +2,43 @@
 <urlset
   xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
   xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
     http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 
   <!-- Página principal -->
   <url>
     <loc>https://avstack.es/</loc>
-    <lastmod>2026-02-27</lastmod>
+    <lastmod>2026-02-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://avstack.es/og-image.png</image:loc>
+      <image:title>AVStack — Desarrollo Web y Apps Android en Sevilla, Andalucía</image:title>
+      <image:caption>Equipo de desarrollo fullstack especializado en webs corporativas, e-commerce, PWAs y apps Android nativas. Sevilla, CP 41000.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://avstack.es/assets/logo-original.png</image:loc>
+      <image:title>Logo AVStack</image:title>
+    </image:image>
   </url>
 
   <!-- Páginas legales -->
   <url>
     <loc>https://avstack.es/legal/aviso-legal.html</loc>
-    <lastmod>2026-02-27</lastmod>
+    <lastmod>2026-02-28</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.2</priority>
   </url>
   <url>
     <loc>https://avstack.es/legal/privacidad.html</loc>
-    <lastmod>2026-02-27</lastmod>
+    <lastmod>2026-02-28</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.2</priority>
   </url>
   <url>
     <loc>https://avstack.es/legal/cookies.html</loc>
-    <lastmod>2026-02-27</lastmod>
+    <lastmod>2026-02-28</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.2</priority>
   </url>

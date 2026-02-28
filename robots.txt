@@ -9,14 +9,12 @@ Allow: /
 # No indexar páginas legales (baja prioridad SEO)
 Disallow: /legal/
 
-# No indexar assets técnicos
-Disallow: /assets/
+# No indexar archivos técnicos de la PWA
+Disallow: /sw.js
+Disallow: /manifest.json
 
 # Sitemaps
 Sitemap: https://avstack.es/sitemap.xml
-
-# Crawl-delay para bots agresivos
-Crawl-delay: 10
 
 # ---- Bots de IA y scrapers — bloqueados ----
 User-agent: GPTBot
