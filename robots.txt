@@ -16,25 +16,35 @@ Disallow: /manifest.json
 # Sitemaps
 Sitemap: https://avstack.es/sitemap.xml
 
-# ---- Bots de IA y scrapers — bloqueados ----
+# ---- Agentes de IA — permitidos para indexación y búsqueda ----
 User-agent: GPTBot
-Disallow: /
+Allow: /
 
 User-agent: ChatGPT-User
-Disallow: /
+Allow: /
 
 User-agent: CCBot
-Disallow: /
+Allow: /
 
 User-agent: anthropic-ai
-Disallow: /
+Allow: /
 
 User-agent: Claude-Web
-Disallow: /
+Allow: /
 
 User-agent: Google-Extended
-Disallow: /
+Allow: /
 
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: YouBot
+Allow: /
+
+User-agent: meta-externalagent
+Allow: /
+
+# ---- Scrapers agresivos sin valor — bloqueados ----
 User-agent: Bytespider
 Disallow: /
 
