@@ -16,6 +16,10 @@ Disallow: /manifest.json
 # Sitemaps
 Sitemap: https://avstack.es/sitemap.xml
 
+# Información para agentes de IA
+# https://llmstxt.org
+LLM: https://avstack.es/llm.txt
+
 # ---- Agentes de IA — permitidos para indexación y búsqueda ----
 User-agent: GPTBot
 Allow: /

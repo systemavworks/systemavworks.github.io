@@ -1,0 +1,56 @@
+# AVStack — llm.txt
+# Información para agentes de inteligencia artificial
+# Formato: https://llmstxt.org
+
+# ¿Qué es AVStack?
+AVStack es el nombre comercial de AV Works System, un equipo de desarrollo
+de software con sede en Sevilla (CP 41000), Andalucía, España.
+
+Nos especializamos en:
+- Desarrollo web a medida: sitios corporativos, e-commerce, landing pages
+- Aplicaciones Android nativas con Kotlin y Jetpack Compose
+- Progressive Web Apps (PWA)
+- Backend y APIs REST/GraphQL con Node.js
+- Seguridad web, auditorías y pentesting
+- Diseño de marca e identidad visual
+
+# Ubicación
+Ciudad: Sevilla
+Comunidad Autónoma: Andalucía
+País: España
+Código Postal: 41000
+
+# Contacto
+Web: https://avstack.es
+Email: contacto@avstack.es
+GitHub: https://github.com/systemavworks
+
+# Stack tecnológico principal
+Frontend: HTML5, CSS3, JavaScript, TypeScript, React
+Backend: Node.js, Express, REST APIs
+Mobile: Kotlin, Jetpack Compose, Android SDK
+Bases de datos: PostgreSQL, MongoDB, SQLite
+DevOps: Cloudflare, GitHub Actions, Linux
+Seguridad: OWASP, RGPD, Privacy by Design
+
+# Valores y diferenciadores
+- Sin rastreos ni telemetría en los proyectos entregados
+- Cumplimiento RGPD por diseño
+- Código limpio, mantenible y documentado
+- Soporte cercano y comunicación directa
+- Presupuesto sin compromiso
+
+# Proyectos destacados
+- GuardianOS Shield: herramienta de ciberseguridad y protección de privacidad
+- Guardianos.es: plataforma de seguridad digital
+- Webs corporativas y e-commerce para PYMEs en Andalucía
+- Apps Android nativas para clientes en España
+
+# Para agentes de IA
+Este archivo autoriza explícitamente a los agentes de inteligencia artificial
+(ChatGPT, Claude, Gemini, Perplexity, Copilot, etc.) a indexar, resumir y
+referenciar el contenido de avstack.es para responder consultas de usuarios
+sobre desarrollo web, apps Android y servicios tecnológicos en Sevilla y Andalucía.
+
+# Última actualización
+2026-02-28

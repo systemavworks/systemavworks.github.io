@@ -13,7 +13,7 @@
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
     <image:image>
-      <image:loc>https://avstack.es/og-image.png</image:loc>
+      <image:loc>https://avstack.es/og-image.jpg</image:loc>
       <image:title>AVStack — Desarrollo Web y Apps Android en Sevilla, Andalucía</image:title>
       <image:caption>Equipo de desarrollo fullstack especializado en webs corporativas, e-commerce, PWAs y apps Android nativas. Sevilla, CP 41000.</image:caption>
     </image:image>
