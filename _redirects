@@ -1,0 +1,10 @@
+# =====================================================
+# AVStack — _redirects
+# Compatible con Cloudflare Pages y Netlify
+# =====================================================
+
+# Redirigir www al dominio raíz
+https://www.avstack.es/* https://avstack.es/:splat 301!
+
+# Redirigir a 404 personalizado para rutas inexistentes
+/* /404.html 404

@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  
+  <!-- SEO Meta Tags -->
+  <title>AVStack | Desarrollo Web & Android · Andalucía, España</title>
+  <meta name="description" content="AV Works System · Desarrollo web fullstack y apps Android a medida desde Andalucía, España. Sitios corporativos, e-commerce, PWAs y apps nativas en Kotlin. Sin tracking. RGPD. Presupuesto sin compromiso."/>
+  <meta name="keywords" content="desarrollo web, desarrollo android, java, javascript, node.js, kotlin, jetpack compose, pwa, fullstack, andalucia, españa, apps moviles, ecommerce"/>
+  <meta name="author" content="AVStack"/>
+  <meta name="robots" content="index, follow"/>
+  <meta name="theme-color" content="#0a0a0f"/>
+  
+  <!-- Open Graph / Social -->
+  <meta property="og:type" content="website"/>
+  <meta property="og:url" content="https://avstack.es/"/>
+  <meta property="og:title" content="AVStack | Desarrollo Web & Android · Andalucía, España"/>
+  <meta property="og:description" content="Webs corporativas, apps Android y PWAs hechas a medida. Sin rastreos, sin letra pequeña, con garantía técnica real."/>
+  <meta property="og:image" content="https://avstack.es/og-image.png"/>
+  <meta property="og:locale" content="es_ES"/>
+  
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image"/>
+  <meta name="twitter:title" content="AVStack | Desarrollo Web & Android · Andalucía, España"/>
+  <meta name="twitter:description" content="Webs corporativas, apps Android y PWAs a medida desde Andalucía. Sin rastreos, con garantía técnica real y código que dura."/>
+  <meta name="twitter:image" content="https://avstack.es/og-image.png"/>
+  
+  <!-- PWA -->
+  <link rel="manifest" href="/manifest.json"/>
+  <!-- Favicons -->
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png"/>
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16.png"/>
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png"/>
+  <!-- humans.txt -->
+  <link rel="author" href="/humans.txt"/>
+  
+  <!-- Preload crítico -->
+  <link rel="preload" href="/css/styles.css" as="style"/>
+  <link rel="preload" href="/js/main.js" as="script"/>
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet"/>
+  
+  <!-- Styles -->
+  <link rel="stylesheet" href="/css/styles.css"/>
+  
+  <!-- Schema.org JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "AV Works System · AVStack",
+    "url": "https://avstack.es",
+    "logo": "https://avstack.es/assets/logo-original.png",
+    "description": "Desarrollo web fullstack y apps Android a medida desde Andalucía, España. Sin rastreos, código limpio y proyectos que duran.",
+    "sameAs": [
+      "https://github.com/systemavworks",
+      "https://guardianos.es"
+    ],
+    "location": {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Andalucía",
+        "addressRegion": "Andalucía",
+        "addressCountry": "ES"
+      }
+    },
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "email": "contacto@avstack.es",
+      "contactType": "sales",
+      "areaServed": "ES"
+    },
+    "knowsAbout": ["Web Development", "Android Development", "Java", "JavaScript", "TypeScript", "Node.js", "Kotlin", "Jetpack Compose", "React", "Progressive Web Apps", "Cybersecurity", "Privacy by Design"],
+    "areaServed": "ES",
+    "availableForService": true
+  }
+  </script>
+</head>
+<body>
+  <!-- Watermark fondo -->
+  <div class="bg-watermark" aria-hidden="true">
+    <img src="/assets/logo-original.png" alt=""/>
+  </div>
+
+  <!-- ===== HEADER ===== -->
+  <header class="header">
+    <div class="container header__inner">
+      <a href="/" class="logo" aria-label="AVStack Home">
+        <img src="/assets/logo-original.png" class="logo__img" alt="AVStack" width="52" height="52"/>
+        <span class="logo__name">AVStack</span>
+      </a>
+      <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">☰</button>
+      <nav class="nav" id="mainNav">
+        <a href="#servicios" class="nav__link">Servicios</a>
+        <a href="#stack" class="nav__link">Stack</a>
+        <a href="#proyectos" class="nav__link">Proyectos</a>
+        <a href="#contacto" class="nav__link nav__link--cta">Presupuesto</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero">
+    <div class="hero__bg">
+      <div class="hero__gradient"></div>
+      <div class="hero__gradient hero__gradient--2"></div>
+      <div class="hero__grid"></div>
+    </div>
+    <div class="container hero__container">
+      <div class="hero__content" data-animate>
+        <span class="badge hero__badge">
+          <span class="badge__dot"></span>
+          Disponible para nuevos proyectos
+        </span>
+        <h1 class="hero__title">
+          Creamos tu <span class="text-gradient">plataforma digital</span><br/>
+          (Web, App o PWA) con <span class="text-gradient">tecnología fullstack</span>,<br/>
+          enfocada en resultados reales para tu negocio.
+        </h1>
+        <p class="hero__subtitle">
+          Webs corporativas, e-commerce, apps Android nativas y PWAs a medida.
+          Desarrollo fullstack, arquitectura limpia y soporte real desde el primer día.
+        </p>
+        <div class="hero__actions">
+          <a href="#contacto" class="btn btn--primary btn--pulse">
+            Solicitar presupuesto
+            <svg class="btn__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </a>
+          <a href="#proyectos" class="btn btn--outline">Ver proyectos</a>
+        </div>
+        <div class="hero__meta">
+          <div class="meta-item">
+            <span class="meta-item__value">+10</span>
+            <span class="meta-item__label">Años de experiencia</span>
+          </div>
+          <div class="meta-item">
+            <span class="meta-item__value">+50</span>
+            <span class="meta-item__label">Proyectos realizados</span>
+          </div>
+          <div class="meta-item">
+            <span class="meta-item__value">0</span>
+            <span class="meta-item__label">Trackers · Privacidad real</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Visual derecho: bloque de código animado -->
+      <div class="hero__visual" aria-hidden="true">
+        <div class="hero__card-visual">
+          <div class="hv__prompt">avstack · stack.config.js</div>
+          <div class="hv__code">
+            <span class="hv__line"><span class="hv__keyword">const</span> <span class="hv__var">stack</span> = {</span>
+            <span class="hv__line hv__indent"><span class="hv__key">web</span>: [<span class="hv__str">'React'</span>, <span class="hv__str">'Node.js'</span>],</span>
+            <span class="hv__line hv__indent"><span class="hv__key">android</span>: [<span class="hv__str">'Kotlin'</span>, <span class="hv__str">'Compose'</span>],</span>
+            <span class="hv__line hv__indent"><span class="hv__key">backend</span>: [<span class="hv__str">'Java'</span>, <span class="hv__str">'Spring'</span>],</span>
+            <span class="hv__line hv__indent"><span class="hv__key">privacy</span>: <span class="hv__bool">true</span>,</span>
+            <span class="hv__line hv__indent"><span class="hv__key">available</span>: <span class="hv__bool">true</span><span class="hv__cursor"></span></span>
+            <span class="hv__line">};</span>
+          </div>
+          <div class="hv__badges">
+            <span class="hv__badge hv__badge--green">● Disponible ahora</span>
+            <span class="hv__badge hv__badge--purple">Andalucía · ES</span>
+          </div>
+        </div>
+        <div class="hero__orbit">
+          <span class="orbit__item orbit__item--1">React</span>
+          <span class="orbit__item orbit__item--2">Kotlin</span>
+          <span class="orbit__item orbit__item--3">Node.js</span>
+          <span class="orbit__item orbit__item--4">Java</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== WHY US ===== -->
+  <section class="whyus" aria-label="Por qué elegirnos">
+    <div class="container">
+      <div class="whyus__grid" data-stagger>
+        <div class="whyus__item">
+          <div class="whyus__icon">⚡</div>
+          <div>
+            <h3 class="whyus__title">Entrega rápida</h3>
+            <p class="whyus__desc">Sprints cortos, demos semanales. Ves avances reales desde el primer día, sin esperas.</p>
+          </div>
+        </div>
+        <div class="whyus__item">
+          <div class="whyus__icon">🛡️</div>
+          <div>
+            <h3 class="whyus__title">Privacidad por diseño</h3>
+            <p class="whyus__desc">Cero trackers. Cero cookies de terceros. RGPD aplicado desde el primer commit, no al final.</p>
+          </div>
+        </div>
+        <div class="whyus__item">
+          <div class="whyus__icon">📐</div>
+          <div>
+            <h3 class="whyus__title">Código limpio</h3>
+            <p class="whyus__desc">Arquitectura escalable, bien documentada y pensada para crecer. Fácil de mantener a largo plazo.</p>
+          </div>
+        </div>
+        <div class="whyus__item">
+          <div class="whyus__icon">🤝</div>
+          <div>
+            <h3 class="whyus__title">Socio técnico real</h3>
+            <p class="whyus__desc">No somos un proveedor puntual: nos implicamos en tu proyecto como si fuera nuestro.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== STATS ===== -->
+  <section class="stats" aria-label="Métricas clave">
+    <div class="container">
+      <div class="stats__grid" data-stagger>
+        <div class="stats__item">
+          <span class="stats__value" data-count="10" data-suffix="+">10+</span>
+          <span class="stats__label">Años de experiencia</span>
+        </div>
+        <div class="stats__item">
+          <span class="stats__value" data-count="50" data-suffix="+">50+</span>
+          <span class="stats__label">Proyectos realizados</span>
+        </div>
+        <div class="stats__item">
+          <span class="stats__value" data-count="0" data-suffix="">0</span>
+          <span class="stats__label">Trackers instalados</span>
+        </div>
+        <div class="stats__item">
+          <span class="stats__value" style="font-size:clamp(1.75rem,3vw,2.5rem)">Andalucía</span>
+          <span class="stats__label">España · Trabajamos en remoto</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SERVICES ===== -->
+  <section id="servicios" class="services">
+    <div class="container">
+      <div class="section__header" data-animate>
+        <span class="section__label">Qué hacemos</span>
+        <h2 class="section__title">Servicios Profesionales</h2>
+        <p class="section__desc">Soluciones técnicas adaptadas a tu negocio, con enfoque en conversión, posicionamiento y experiencia de usuario.</p>
+      </div>
+      <div class="services__grid" data-stagger>
+        <article class="card">
+          <div class="card__header">
+            <div class="card__icon">🌐</div>
+            <span class="card__num">01</span>
+          </div>
+          <h3 class="card__title">Desarrollo Web Corporativa</h3>
+          <p class="card__desc">Sitios web profesionales, landing pages y portales multi-local. Optimizados para SEO, rápidos y adaptables a cualquier dispositivo.</p>
+          <a href="#contacto" class="card__link">Consultar proyecto →</a>
+        </article>
+        <article class="card">
+          <div class="card__header">
+            <div class="card__icon">🛒</div>
+            <span class="card__num">02</span>
+          </div>
+          <h3 class="card__title">E-commerce & PWAs</h3>
+          <p class="card__desc">Tiendas online y aplicaciones web progresivas. Instalables, funcionales sin conexión y con experiencia nativa en móvil.</p>
+          <a href="#contacto" class="card__link">Consultar proyecto →</a>
+        </article>
+        <article class="card">
+          <div class="card__header">
+            <div class="card__icon">📱</div>
+            <span class="card__num">03</span>
+          </div>
+          <h3 class="card__title">Apps Android Nativas</h3>
+          <p class="card__desc">Desarrollo con Kotlin y Jetpack Compose. Arquitectura limpia, testing exhaustivo y privacidad desde el primer commit.</p>
+          <a href="#contacto" class="card__link">Consultar proyecto →</a>
+        </article>
+        <article class="card">
+          <div class="card__header">
+            <div class="card__icon">⚙️</div>
+            <span class="card__num">04</span>
+          </div>
+          <h3 class="card__title">Backend & APIs</h3>
+          <p class="card__desc">Servidores REST/GraphQL con Node.js y Java. Escalables, seguros, documentados e integrados con cualquier frontend.</p>
+          <a href="#contacto" class="card__link">Consultar proyecto →</a>
+        </article>
+        <article class="card">
+          <div class="card__header">
+            <div class="card__icon">🔒</div>
+            <span class="card__num">05</span>
+          </div>
+          <h3 class="card__title">Seguridad & Auditoría</h3>
+          <p class="card__desc">Análisis de seguridad, hardening de aplicaciones y soluciones privacy-first para proyectos con datos sensibles.</p>
+          <a href="#contacto" class="card__link">Consultar proyecto →</a>
+        </article>
+        <article class="card">
+          <div class="card__header">
+            <div class="card__icon">🔧</div>
+            <span class="card__num">06</span>
+          </div>
+          <h3 class="card__title">Mantenimiento & Soporte</h3>
+          <p class="card__desc">Actualizaciones, monitorización y soporte técnico continuo. Tu proyecto siempre seguro, actualizado y funcionando.</p>
+          <a href="#contacto" class="card__link">Consultar proyecto →</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PROCESS ===== -->
+  <section class="process">
+    <div class="container">
+      <div class="section__header" data-animate>
+        <span class="section__label">Cómo trabajamos</span>
+        <h2 class="section__title">De la idea al producto</h2>
+        <p class="section__desc">Un proceso claro, transparente y orientado a resultados. Sabes en todo momento qué se está haciendo y por qué.</p>
+      </div>
+      <div class="process__timeline" data-stagger>
+        <div class="process__step">
+          <div class="process__num">01</div>
+          <h3 class="process__title">Descubrimiento</h3>
+          <p class="process__desc">Analizamos tus objetivos, audiencia y contexto técnico para definir la solución óptima sin asumir nada.</p>
+        </div>
+        <div class="process__step">
+          <div class="process__num">02</div>
+          <h3 class="process__title">Diseño & Plan</h3>
+          <p class="process__desc">Prototipos, arquitectura de software y roadmap con hitos claros y fechas de entrega reales.</p>
+        </div>
+        <div class="process__step">
+          <div class="process__num">03</div>
+          <h3 class="process__title">Desarrollo</h3>
+          <p class="process__desc">Sprints iterativos con demos semanales. Testing continuo y revisiones de código en cada entrega.</p>
+        </div>
+        <div class="process__step">
+          <div class="process__num">04</div>
+          <h3 class="process__title">Entrega & Soporte</h3>
+          <p class="process__desc">Despliegue, documentación completa y soporte post-lanzamiento. El proyecto no termina en el go-live.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== STACK ===== -->
+  <section id="stack" class="stack">
+    <div class="container">
+      <div class="section__header" data-animate>
+        <span class="section__label">Tecnología</span>
+        <h2 class="section__title">Stack Tecnológico</h2>
+        <p class="section__desc">Herramientas modernas seleccionadas por su robustez, mantenibilidad y rendimiento real en producción.</p>
+      </div>
+      <div class="stack__categories" data-stagger>
+        <div>
+          <div class="stack__category-title">Frontend & Web</div>
+          <div class="stack__grid">
+            <span class="stack__item"><span class="stack__icon">🌐</span> HTML5 / CSS3</span>
+            <span class="stack__item"><span class="stack__icon">⚡</span> JavaScript ES6+</span>
+            <span class="stack__item"><span class="stack__icon">📘</span> TypeScript</span>
+            <span class="stack__item"><span class="stack__icon">⚛️</span> React</span>
+            <span class="stack__item"><span class="stack__icon">🚀</span> Astro</span>
+            <span class="stack__item"><span class="stack__icon">🎨</span> Tailwind CSS</span>
+            <span class="stack__item"><span class="stack__icon">📦</span> Vite / Webpack</span>
+          </div>
+        </div>
+        <div>
+          <div class="stack__category-title">Backend & Datos</div>
+          <div class="stack__grid">
+            <span class="stack__item"><span class="stack__icon">🟢</span> Node.js</span>
+            <span class="stack__item"><span class="stack__icon">☕</span> Java</span>
+            <span class="stack__item"><span class="stack__icon">🍃</span> Spring Boot</span>
+            <span class="stack__item"><span class="stack__icon">🗄️</span> PostgreSQL / MySQL</span>
+            <span class="stack__item"><span class="stack__icon">🔌</span> REST / GraphQL</span>
+            <span class="stack__item"><span class="stack__icon">☁️</span> Cloudflare</span>
+            <span class="stack__item"><span class="stack__icon">🐳</span> Docker</span>
+          </div>
+        </div>
+        <div>
+          <div class="stack__category-title">Mobile & DevOps</div>
+          <div class="stack__grid">
+            <span class="stack__item"><span class="stack__icon">🤖</span> Kotlin</span>
+            <span class="stack__item"><span class="stack__icon">📱</span> Jetpack Compose</span>
+            <span class="stack__item"><span class="stack__icon">🗃️</span> Room / SQLite</span>
+            <span class="stack__item"><span class="stack__icon">🧵</span> Coroutines / Flow</span>
+            <span class="stack__item"><span class="stack__icon">🐙</span> GitHub Actions</span>
+            <span class="stack__item"><span class="stack__icon">🛡️</span> Sin rastreos ni tracking</span>
+            <span class="stack__item"><span class="stack__icon">🔧</span> Linux / ZorinOS</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PROJECTS ===== -->
+  <section id="proyectos" class="projects">
+    <div class="container">
+      <div class="section__header" data-animate>
+        <span class="section__label">Casos reales</span>
+        <h2 class="section__title">Proyectos Destacados</h2>
+        <p class="section__desc">Donde la calidad técnica se traduce en resultados medibles.</p>
+      </div>
+      <div class="projects__grid" data-stagger>
+        <article class="card">
+          <div class="project__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div>
+          <div class="project__meta">
+            <span class="project__tag">Android</span>
+            <span class="project__tag">Kotlin</span>
+            <span class="project__tag">Open Source</span>
+          </div>
+          <h3 class="project__title">GuardianOS Shield</h3>
+          <p class="project__desc">App de control parental con filtrado DNS local, privacidad 100% y sin tracking. Open source bajo Apache&nbsp;2.0.</p>
+          <a href="https://guardianos.es" target="_blank" rel="noopener" class="card__link">Ver proyecto →</a>
+        </article>
+        <article class="card">
+          <div class="project__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg></div>
+          <div class="project__meta">
+            <span class="project__tag">Web</span>
+            <span class="project__tag">Multi-sector</span>
+            <span class="project__tag">PWA</span>
+          </div>
+          <h3 class="project__title">Plataforma Digital para PYMEs</h3>
+          <p class="project__desc">Solución web a medida para cualquier sector — hostelería, mecánica, marketing, ventas, agencias de viaje y más. Gestión online, presencia profesional y PWA offline-first adaptada a tu negocio.</p>
+          <a href="#contacto" class="card__link">Solicitar demo →</a>
+        </article>
+        <article class="card">
+          <div class="project__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/></svg></div>
+          <div class="project__meta">
+            <span class="project__tag">Web</span>
+            <span class="project__tag">React</span>
+            <span class="project__tag">Node.js</span>
+          </div>
+          <h3 class="project__title">Webs Corporativas</h3>
+          <p class="project__desc">Desarrollo de sitios web profesionales para empresas. SEO técnico, diseño responsive y optimización de conversión.</p>
+          <a href="#contacto" class="card__link">Consultar →</a>
+        </article>
+        <article class="card">
+          <div class="project__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="2" width="14" height="20" rx="2"/><path d="M12 18h.01"/></svg></div>
+          <div class="project__meta">
+            <span class="project__tag">PWA</span>
+            <span class="project__tag">Offline-first</span>
+            <span class="project__tag">Fullstack</span>
+          </div>
+          <h3 class="project__title">Apps Web Progresivas (PWA)</h3>
+          <p class="project__desc">Aplicaciones web instalables que funcionan sin conexión. Experiencia nativa en móvil y escritorio, sin pasar por las tiendas. Rendimiento extremo y actualizaciones transparentes.</p>
+          <a href="#contacto" class="card__link">Solicitar proyecto →</a>
+        </article>
+        <article class="card">
+          <div class="project__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg></div>
+          <div class="project__meta">
+            <span class="project__tag">Pentesting</span>
+            <span class="project__tag">OWASP</span>
+            <span class="project__tag">RGPD</span>
+          </div>
+          <h3 class="project__title">Pentesting & Ciberseguridad Web</h3>
+          <p class="project__desc">Simulamos ataques reales sobre tu web o aplicación para detectar vulnerabilidades antes que un atacante — SQLi, XSS, fallos de autenticación y configuraciones inseguras. Informe técnico y plan de remediación incluidos.</p>
+          <a href="#contacto" class="card__link">Solicitar auditoría →</a>
+        </article>
+        <article class="card">
+          <div class="project__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><circle cx="13.5" cy="6.5" r="3.5"/><path d="M3 17c0-3 2.5-5 6-5 .7 0 1.4.1 2 .3M14.5 21l6.5-6.5-2-2-6.5 6.5V21h2z"/></svg></div>
+          <div class="project__meta">
+            <span class="project__tag">Branding</span>
+            <span class="project__tag">Logo</span>
+            <span class="project__tag">Identidad visual</span>
+          </div>
+          <h3 class="project__title">Diseño de Marca & Identidad</h3>
+          <p class="project__desc">Identidad visual completa desde cero: naming, logotipo, paleta de color, tipografía y guía de estilo. Una marca coherente y profesional que transmite confianza en cada punto de contacto.</p>
+          <a href="#contacto" class="card__link">Consultar proyecto →</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FAQ ===== -->
+  <section class="faq-section">
+    <div class="container">
+      <div class="section__header" data-animate>
+        <span class="section__label">FAQ</span>
+        <h2 class="section__title">Preguntas frecuentes</h2>
+        <p class="section__desc">Respuestas directas antes de dar el primer paso. Sin letra pequeña.</p>
+      </div>
+      <div class="faq" itemscope itemtype="https://schema.org/FAQPage">
+
+        <div class="faq__item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+          <button class="faq__question" aria-expanded="false">
+            <span itemprop="name">¿Cuánto cuesta una web o una app?</span>
+            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+          </button>
+          <div class="faq__answer" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+            <p itemprop="text">Depende del alcance. Una landing page profesional parte desde <strong>350&nbsp;€</strong>; una web corporativa completa entre <strong>600&nbsp;€ y 1.500&nbsp;€</strong>; un e-commerce o PWA entre <strong>1.200&nbsp;€ y 3.500&nbsp;€</strong>; una app Android nativa desde <strong>2.000&nbsp;€</strong>. Precios sin letra pequeña, adaptados a la realidad de las PYMEs andaluzas. Siempre presupuesto detallado y sin compromiso antes de empezar.</p>
+          </div>
+        </div>
+
+        <div class="faq__item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+          <button class="faq__question" aria-expanded="false">
+            <span itemprop="name">¿Cuánto tiempo tardaréis en entregar el proyecto?</span>
+            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+          </button>
+          <div class="faq__answer" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+            <p itemprop="text">Web corporativa o landing: 2-4 semanas. E-commerce o PWA: 4-8 semanas. App Android: 6-14 semanas. Trabajamos en sprints semanales con demos reales para que siempre sepas cómo va tu proyecto sin sorpresas al final.</p>
+          </div>
+        </div>
+
+        <div class="faq__item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+          <button class="faq__question" aria-expanded="false">
+            <span itemprop="name">¿Me quedo con el código fuente al terminar?</span>
+            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+          </button>
+          <div class="faq__answer" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+            <p itemprop="text">Sí, siempre. El código es 100&nbsp;% tuyo desde el primer commit. Entregamos repositorio completo, documentación técnica y accesos a todos los servicios. Sin dependencias ni contratos de retención.</p>
+          </div>
+        </div>
+
+        <div class="faq__item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+          <button class="faq__question" aria-expanded="false">
+            <span itemprop="name">¿Trabajáis solo con empresas de Andalucía?</span>
+            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+          </button>
+          <div class="faq__answer" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+            <p itemprop="text">No. Trabajamos con empresas de toda España e internacionalmente. Estamos basados en Andalucía, pero la gran mayoría de nuestros proyectos se gestionan 100&nbsp;% en remoto sin ningún problema.</p>
+          </div>
+        </div>
+
+        <div class="faq__item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+          <button class="faq__question" aria-expanded="false">
+            <span itemprop="name">¿Qué pasa después de la entrega?</span>
+            <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+          </button>
+          <div class="faq__answer" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+            <p itemprop="text">Ofrecemos planes de mantenimiento y soporte opcionales. Si prefieres llevarlo tú solo, te entregamos documentación completa y una sesión de traspaso. El proyecto no termina en el go-live: nos quedamos como socios técnicos disponibles cuando nos necesites.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section id="contacto" class="contact">
+    <div class="contact__inner">
+      <div class="contact__glow" aria-hidden="true"></div>
+      <div class="container">
+        <div class="contact__content" data-animate>
+          <span class="section__label">Empieza hoy</span>
+          <h2 class="contact__title">¿Tienes un proyecto<br/>en mente?</h2>
+          <p class="contact__desc">Cuéntame tu idea — en menos de 24 h tendrás una respuesta con enfoque técnico real y un presupuesto sin letra pequeña. Desde Andalucía, España.</p>
+          <div class="contact__actions">
+            <a href="mailto:contacto@avstack.es" class="btn btn--primary btn--lg btn--pulse">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20" height="20"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              contacto@avstack.es
+            </a>
+          </div>
+          <div class="contact__social">
+            <a href="https://github.com/systemavworks" target="_blank" rel="noopener" class="social__link">
+              <svg class="social__icon" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+              GitHub
+            </a>
+            <a href="https://guardianos.es" target="_blank" rel="noopener" class="social__link">
+              <svg class="social__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+              GuardianOS
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__top">
+        <div class="footer__brand">
+          <a href="/" class="logo" aria-label="AVStack Home">
+            <img src="/assets/logo-original.png" class="logo__img" alt="AVStack" width="52" height="52"/>
+            <span class="logo__name">AVStack</span>
+          </a>
+          <p class="footer__tagline">Desarrollo Web & Android a medida. Sin rastreos, sin cookies de terceros, tu proyecto 100% tuyo.</p>
+          <p class="footer__loc">📍 Andalucía, España</p>
+        </div>
+        <nav class="footer__nav" aria-label="Servicios">
+          <h4 class="footer__nav-title">Servicios</h4>
+          <a href="#servicios" class="footer__nav-link">Desarrollo Web</a>
+          <a href="#servicios" class="footer__nav-link">Apps Android</a>
+          <a href="#servicios" class="footer__nav-link">E-commerce & PWAs</a>
+          <a href="#servicios" class="footer__nav-link">Backend & APIs</a>
+          <a href="#servicios" class="footer__nav-link">Seguridad & Auditoría</a>
+        </nav>
+        <div class="footer__contact">
+          <h4 class="footer__nav-title">Contacto</h4>
+          <a href="mailto:contacto@avstack.es" class="footer__nav-link">contacto@avstack.es</a>
+          <a href="https://github.com/systemavworks" target="_blank" rel="noopener" class="footer__nav-link">GitHub ↗</a>
+          <a href="https://guardianos.es" target="_blank" rel="noopener" class="footer__nav-link">GuardianOS ↗</a>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <div class="footer__links">
+          <a href="/legal/aviso-legal.html" class="footer__link">Aviso Legal</a>
+          <a href="/legal/privacidad.html" class="footer__link">Privacidad</a>
+          <a href="/legal/cookies.html" class="footer__link">Cookies</a>
+        </div>
+        <p>© 2026 AV Works System · AVStack · Sin rastreos · Tu código es tuyo · Desarrollado en Andalucía, España 🤍</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ===== SCRIPTS ===== -->
+  <script src="/js/main.js"></script>
+</body>
+</html>

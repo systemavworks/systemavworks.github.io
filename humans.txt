@@ -1,0 +1,23 @@
+/* =====================================================
+   AVStack — humans.txt
+   Equipo humano detrás del proyecto
+   https://humanstxt.org/
+   ===================================================== */
+
+/* TEAM */
+Developer & Designer: Victor A.
+Site: https://avstack.es
+GitHub: https://github.com/systemavworks
+Location: Sevilla, Andalucía, España
+
+/* THANKS */
+Fuentes: Inter & JetBrains Mono — Google Fonts
+Hosting: GitHub Pages + Cloudflare
+Inspiración: Privacy by Design, Open Source community
+
+/* SITE */
+Last update: 2026/02/27
+Language: Spanish (es-ES)
+Standards: HTML5, CSS3, ES6+
+Software: Código limpio, sin dependencias innecesarias
+Components: Vanilla JS, CSS custom properties, Web Animations API

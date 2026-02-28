@@ -1,0 +1,44 @@
+# =====================================================
+# AVStack — robots.txt
+# avstack.es
+# =====================================================
+
+User-agent: *
+Allow: /
+
+# No indexar páginas legales (baja prioridad SEO)
+Disallow: /legal/
+
+# No indexar assets técnicos
+Disallow: /assets/
+
+# Sitemaps
+Sitemap: https://avstack.es/sitemap.xml
+
+# Crawl-delay para bots agresivos
+Crawl-delay: 10
+
+# ---- Bots de IA y scrapers — bloqueados ----
+User-agent: GPTBot
+Disallow: /
+
+User-agent: ChatGPT-User
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: anthropic-ai
+Disallow: /
+
+User-agent: Claude-Web
+Disallow: /
+
+User-agent: Google-Extended
+Disallow: /
+
+User-agent: Bytespider
+Disallow: /
+
+User-agent: DotBot
+Disallow: /

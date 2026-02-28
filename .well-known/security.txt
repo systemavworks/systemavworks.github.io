@@ -1,0 +1,12 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+
+Contact: mailto:contacto@avstack.es
+Contact: https://avstack.es/#contacto
+Expires: 2027-02-27T00:00:00.000Z
+Encryption: mailto:contacto@avstack.es
+Preferred-Languages: es, en
+Canonical: https://avstack.es/.well-known/security.txt
+Policy: https://avstack.es/legal/privacidad.html
+Acknowledgments: https://avstack.es/humans.txt
+
+-----END PGP SIGNED MESSAGE-----
