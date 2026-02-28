@@ -5,7 +5,7 @@
 [![License](https://img.shields.io/badge/License-Apache_2.0-06b6d4?style=flat-square)](LICENSE)
 [![PWA](https://img.shields.io/badge/PWA-Ready-10b981?style=flat-square)](https://avstack.es/manifest.json)
 
-Sitio web corporativo de **AV Works System / AVStack** — equipo de Desarrollo Web Fullstack y Android con sede en Sevilla, Andalucía. Construido con HTML, CSS y JavaScript puro. Sin frameworks. Sin tracking. Privacidad por diseño.
+Sitio web corporativo de **AV Works System / AVStack** — equipo de Desarrollo Web Fullstack y Android con sede en Andalucía, España. Construido con HTML, CSS y JavaScript puro. Sin frameworks. Sin tracking. Privacidad por diseño.
 
 ---
 
@@ -13,15 +13,60 @@ Sitio web corporativo de **AV Works System / AVStack** — equipo de Desarrollo 
 
 | Área | Tecnologías |
 |---|---|
-| Desarrollo Web | HTML5, CSS3, JavaScript, React, Vue, Next.js |
-| Apps Android | Kotlin, Jetpack Compose, Room, Retrofit |
-| Backend & APIs | Node.js, Java Spring, REST, PostgreSQL, MongoDB |
-| E-commerce & PWAs | WooCommerce, Stripe, Service Workers, IndexedDB |
-| Seguridad & Auditoría | OWASP, HTTPS, CSP, DNS Filtering |
+| Desarrollo Web Corporativa | HTML5, CSS3, JavaScript, React, Node.js, SEO técnico |
+| E-commerce & PWAs | WooCommerce, Stripe, Service Workers, offline-first |
+| Apps Android Nativas | Kotlin, Jetpack Compose, Room, Coroutines, Flow |
+| Backend & APIs | Node.js, Java Spring Boot, REST, GraphQL, PostgreSQL |
+| Pentesting & Ciberseguridad | OWASP Top 10, SQLi, XSS, auditoría, hardening |
+| Diseño de Marca & Identidad | Naming, logotipo, paleta, tipografía, guía de estilo |
+| Plataforma Digital PYMEs | Web multi-sector, PWA, gestión online, multi-local |
+| Mantenimiento & Soporte | Monitorización, actualizaciones, soporte post-lanzamiento |
+
+## 💼 Proyectos destacados
+
+### 🛡️ GuardianOS Shield
+**Tipo:** App Android nativa · Open Source  
+**Stack:** Kotlin, Jetpack Compose, Room, DNS-over-HTTPS  
+Aplicación de control parental con filtrado DNS local. Privacidad 100%, sin tracking, sin servidores externos. Distribuida bajo licencia **Apache 2.0**.  
+🔗 [guardianos.es](https://guardianos.es) · [github.com/systemavworks](https://github.com/systemavworks)
 
 ---
 
-## 🏗️ Estructura del proyecto
+### 🏢 Plataforma Digital para PYMEs
+**Tipo:** Web multi-sector a medida  
+**Stack:** HTML5, CSS3, JavaScript / React, Node.js, PWA  
+Solución web adaptable a cualquier sector: hostelería, mecánica, marketing, ventas, agencias de viaje, etc. Incluye gestión online, presencia profesional y PWA offline-first adaptada al negocio.
+
+---
+
+### 🌐 Webs Corporativas
+**Tipo:** Sitios web profesionales  
+**Stack:** React, Node.js, SEO técnico, diseño responsive  
+Desarrollo de webs corporativas, landings y portales para empresas. Optimizadas para SEO, rápidas y adaptables a cualquier dispositivo.
+
+---
+
+### 📲 Apps Web Progresivas (PWA)
+**Tipo:** Aplicaciones web instalables  
+**Stack:** Service Workers, IndexedDB, Web App Manifest, Fullstack  
+Aplicaciones web instalables que funcionan sin conexión. Experiencia nativa en móvil y escritorio sin pasar por las tiendas. Actualizaciones transparentes y rendimiento extremo.
+
+---
+
+### 🔐 Pentesting & Ciberseguridad Web
+**Tipo:** Auditoría de seguridad ofensiva  
+**Stack:** OWASP Top 10, Burp Suite, SQLi, XSS, auth bypasses, hardening  
+Simulación de ataques reales sobre webs y aplicaciones para detectar vulnerabilidades antes que un atacante. Informe técnico detallado y plan de remediación. Cumplimiento RGPD y normativa aplicable.
+
+---
+
+### 🎨 Diseño de Marca & Identidad Visual
+**Tipo:** Branding completo  
+Creación de identidad visual desde cero: naming, logotipo, paleta de color, tipografía y guía de estilo. Marca coherente y profesional que transmite confianza en cada punto de contacto con el cliente.
+
+---
+
+
 
 ```
 systemavworks.github.io/
@@ -130,4 +175,4 @@ El logo, marca y nombre "AV Works System" / "AVStack" son propiedad de sus titul
 - 🐙 [github.com/systemavworks](https://github.com/systemavworks)
 - 🛡️ [guardianos.es](https://guardianos.es) — GuardianOS Shield (proyecto open source)
 
-> *Hecho con ❤️ en Sevilla, Andalucía.*
+> *Hecho con ❤️ en Andalucía, España.*
