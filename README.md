@@ -16,6 +16,7 @@ Sitio web corporativo de **AV Works System / AVStack** — equipo de Desarrollo 
 | Desarrollo Web Corporativa | HTML5, CSS3, JavaScript, React, Node.js, SEO técnico |
 | E-commerce & PWAs | WooCommerce, Stripe, Service Workers, offline-first |
 | Apps Android Nativas | Kotlin, Jetpack Compose, Room, Coroutines, Flow |
+| Fullstack Android + Backend | Kotlin + Node.js/Java Spring, API REST, PostgreSQL, auth JWT |
 | Backend & APIs | Node.js, Java Spring Boot, REST, GraphQL, PostgreSQL |
 | Pentesting & Ciberseguridad | OWASP Top 10, SQLi, XSS, auditoría, hardening |
 | Diseño de Marca & Identidad | Naming, logotipo, paleta, tipografía, guía de estilo |
@@ -23,6 +24,13 @@ Sitio web corporativo de **AV Works System / AVStack** — equipo de Desarrollo 
 | Mantenimiento & Soporte | Monitorización, actualizaciones, soporte post-lanzamiento |
 
 ## 💼 Proyectos destacados
+
+### 🤖 Apps Android Nativas & Fullstack
+**Tipo:** App Android + Backend completo  
+**Stack:** Kotlin, Jetpack Compose, Room, Coroutines/Flow + Node.js / Java Spring Boot, REST API, PostgreSQL, JWT  
+Desarrollo fullstack completo: app Android nativa conectada a un backend robusto y seguro. Arquitectura limpia (Clean Architecture + MVVM), testing, CI/CD con GitHub Actions y despliegue en producción. El cliente recibe el código fuente completo, tanto del móvil como del servidor.
+
+---
 
 ### 🛡️ GuardianOS Shield
 **Tipo:** App Android nativa · Open Source  
