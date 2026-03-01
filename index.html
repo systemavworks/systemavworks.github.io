@@ -42,7 +42,7 @@
   <link rel="alternate" type="text/plain" title="LLM info" href="/llm.txt"/>
   
   <!-- Preload crítico -->
-  <link rel="preload" href="/css/styles.css?v=1.0.0" as="style"/>
+  <link rel="preload" href="/css/styles.css?v=2.0.0" as="style"/>
   <link rel="preload" href="/js/main.js?v=1.0.0" as="script"/>
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com"/>
@@ -50,7 +50,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet"/>
   
   <!-- Styles -->
-  <link rel="stylesheet" href="/css/styles.css?v=1.0.0"/>
+  <link rel="stylesheet" href="/css/styles.css?v=2.0.0"/>
   
   <!-- Schema.org JSON-LD -->
   <script type="application/ld+json">
@@ -674,9 +674,20 @@
   </footer>
 
   <!-- ===== WHATSAPP FLOTANTE ===== -->
+  <style>
+    @media (max-width: 768px) {
+      .whatsapp-float {
+        bottom: 5.5rem !important;
+        right: 1rem !important;
+        height: 58px !important;
+        padding: 0 1.3rem 0 1rem !important;
+      }
+    }
+  </style>
   <a
     href="https://wa.me/34611085046?text=Hola%2C%20me%20gustar%C3%ADa%20pedir%20presupuesto%20para%20mi%20proyecto"
     class="whatsapp-float"
+    style="position:fixed!important;bottom:2.5rem!important;right:2.5rem!important;left:auto!important;top:auto!important;z-index:99999!important;display:flex!important;align-items:center!important;gap:0.65rem!important;height:66px!important;padding:0 1.6rem 0 1.2rem!important;border-radius:999px!important;background:#25d366!important;color:#fff!important;text-decoration:none!important;"
     target="_blank"
     rel="noopener noreferrer"
     aria-label="Contactar por WhatsApp"
