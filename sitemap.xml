@@ -9,38 +9,19 @@
   <!-- Página principal -->
   <url>
     <loc>https://avstack.es/</loc>
-    <lastmod>2026-02-28</lastmod>
+    <lastmod>2026-03-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
     <image:image>
       <image:loc>https://avstack.es/og-image.jpg</image:loc>
-      <image:title>AVStack — Desarrollo Web y Apps Android en Sevilla, Andalucía</image:title>
-      <image:caption>Equipo de desarrollo fullstack especializado en webs corporativas, e-commerce, PWAs y apps Android nativas. Sevilla, CP 41000.</image:caption>
+      <image:title>AVStack — Desarrollo Web y Apps Android en Sevilla, Andalucía, España</image:title>
+      <image:caption>Empresa de desarrollo web y apps Android a medida en Sevilla (CP 41000), Andalucía. Webs corporativas, e-commerce, PWAs y apps nativas en Kotlin. Presupuesto sin compromiso.</image:caption>
     </image:image>
     <image:image>
       <image:loc>https://avstack.es/assets/logo-original.png</image:loc>
-      <image:title>Logo AVStack</image:title>
+      <image:title>Logo AVStack — Desarrollo Web Sevilla, Andalucía</image:title>
     </image:image>
   </url>
 
-  <!-- Páginas legales -->
-  <url>
-    <loc>https://avstack.es/legal/aviso-legal.html</loc>
-    <lastmod>2026-02-28</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  <url>
-    <loc>https://avstack.es/legal/privacidad.html</loc>
-    <lastmod>2026-02-28</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  <url>
-    <loc>https://avstack.es/legal/cookies.html</loc>
-    <lastmod>2026-02-28</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.2</priority>
-  </url>
 
 </urlset>
