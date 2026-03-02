@@ -20,41 +20,8 @@ Sitemap: https://avstack.es/sitemap.xml
 # https://llmstxt.org
 LLM: https://avstack.es/llm.txt
 
-# ---- Agentes de IA — permitidos para indexación y búsqueda ----
-User-agent: GPTBot
-Allow: /
-
-User-agent: ChatGPT-User
-Allow: /
-
-User-agent: CCBot
-Allow: /
-
-User-agent: anthropic-ai
-Allow: /
-
-User-agent: Claude-Web
-Allow: /
-
-User-agent: Google-Extended
-Allow: /
-
-User-agent: PerplexityBot
-Allow: /
-
-User-agent: YouBot
-Allow: /
-
-User-agent: meta-externalagent
-Allow: /
-
-User-agent: Bingbot
-Allow: /
-
-User-agent: msnbot
-Allow: /
-
 # ---- Scrapers agresivos sin valor — bloqueados ----
+# (El resto de bots quedan cubiertos por User-agent: * Allow: / anterior)
 User-agent: Bytespider
 Disallow: /
 
