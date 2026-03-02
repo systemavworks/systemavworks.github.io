@@ -4,6 +4,7 @@
 [![GitHub Pages](https://img.shields.io/badge/Hosted-GitHub_Pages-black?style=flat-square&logo=github)](https://systemavworks.github.io)
 [![License](https://img.shields.io/badge/License-Apache_2.0-06b6d4?style=flat-square)](LICENSE)
 [![PWA](https://img.shields.io/badge/PWA-Ready-10b981?style=flat-square)](https://avstack.es/manifest.json)
+[![Performance](https://img.shields.io/badge/Assets-Optimizados-10b981?style=flat-square)](#-assets--rendimiento)
 
 Sitio web corporativo de **AV Works System / AVStack** — equipo de Desarrollo Web Fullstack y Android con sede en Andalucía, España. Construido con HTML, CSS y JavaScript puro. Sin frameworks. Sin tracking. Privacidad por diseño.
 
@@ -91,13 +92,12 @@ systemavworks.github.io/
 ├── .well-known/
 │   └── security.txt        # RFC 9116 — contacto de seguridad
 ├── assets/
-│   ├── logo-original.png   # Logo AV Works System (original)
-│   ├── logo-avstack.png    # Logo transparente (iconos, PWA)
+│   ├── logo-original.png   # Logo AV Works System — 242 KB / 500×500px (optimizado)
+│   ├── logo-avstack.png    # Logo transparente (iconos, PWA) — 166 KB / 400×400px (optimizado)
 │   ├── icon-192.png        # PWA icon 192x192
 │   ├── icon-512.png        # PWA icon 512x512
 │   ├── favicon-16.png
 │   ├── favicon-32.png
-│   ├── apple-touch-icon.png
 │   └── og-image.png        # Open Graph 1200x630
 ├── css/
 │   └── styles.css          # Estilos (vanilla CSS, variables, dark theme)
@@ -108,6 +108,21 @@ systemavworks.github.io/
     ├── privacidad.html
     └── cookies.html
 ```
+
+---
+
+## 🖼️ Assets & Rendimiento
+
+| Asset | Tamaño original | Tamaño optimizado | Dimensiones |
+|---|---|---|---|
+| `logo-original.png` | 2.6 MB | **242 KB** | 500×500 px |
+| `logo-avstack.png` | 3.4 MB | **166 KB** | 400×400 px |
+| `icon-192.png` | — | 67 KB | 192×192 px |
+| `icon-512.png` | — | 445 KB | 512×512 px |
+
+Los logos se muestran en la web a ~52px (CSS: `3.25rem`). La resolución actual es más que suficiente para pantallas Retina/HiDPI. La optimización se realizó con Python 3 + Pillow (Lanczos, compress_level=9).
+
+Backups de los originales disponibles localmente en `assets/*_orig_backup.png` (no incluidos en el repositorio).
 
 ---
 
