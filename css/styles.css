@@ -156,7 +156,7 @@ section { padding: 5.5rem 0; }
 /* ===== SERVICES ===== */
 .services__grid { display: grid; gap: 1.25rem; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); }
 .card { background: var(--bg-surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 2rem; transition: all var(--transition-normal); position: relative; overflow: hidden; }
-.card::before { content: ''; position: absolute; inset: 0; border-radius: inherit; padding: 1px; background: var(--accent-gradient); -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0); -webkit-mask-composite: xor; mask-composite: exclude; opacity: 0; transition: opacity var(--transition-normal); }
+.card::before { content: ''; position: absolute; inset: 0; border-radius: inherit; padding: 1px; background: var(--accent-gradient); -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0); -webkit-mask-composite: xor; mask-composite: exclude; opacity: 0; transition: opacity var(--transition-normal); pointer-events: none; }
 .card:hover { transform: translateY(-5px); border-color: transparent; box-shadow: var(--shadow-lg); }
 .card:hover::before { opacity: 1; }
 .card__header { display: flex; align-items: flex-start; justify-content: space-between; margin-bottom: 1.25rem; gap: 0.5rem; }
