@@ -586,7 +586,7 @@
     }
     .portfolio__card {
       background: var(--bg-surface);
-      border: 1px solid var(--border);
+      border: 1px solid var(--border-hover);
       border-radius: var(--radius);
       overflow: hidden;
       display: flex;
@@ -611,8 +611,9 @@
     }
     .portfolio__card:hover { transform: translateY(-5px); border-color: transparent; box-shadow: var(--shadow-lg); }
     .portfolio__card:hover::before { opacity: 1; }
+    .about-projects-grid .card { border-color: var(--border-hover); }
     .portfolio__card--featured {
-      border-color: rgba(139,92,246,0.4);
+      border-color: rgba(139,92,246,0.6);
       background: linear-gradient(160deg, rgba(139,92,246,0.07) 0%, var(--bg-surface) 60%);
     }
     .portfolio__card-header {
@@ -902,7 +903,7 @@
           <!-- Proyectos web adicionales -->
           <div data-animate>
             <p class="about-section-title">Proyectos web mantenidos</p>
-            <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(260px,1fr)); gap:1rem;">
+            <div class="about-projects-grid" style="display:grid; grid-template-columns: repeat(auto-fit, minmax(260px,1fr)); gap:1rem;">
 
               <a href="https://guardianos.es" target="_blank" rel="noopener" class="card" style="text-decoration:none; padding:1.5rem;">
                 <div class="project__meta" style="margin-bottom:0.75rem;">
