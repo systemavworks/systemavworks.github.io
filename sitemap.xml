@@ -9,7 +9,7 @@
   <!-- Página principal -->
   <url>
     <loc>https://avstack.es/</loc>
-    <lastmod>2026-03-01</lastmod>
+    <lastmod>2026-03-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
     <image:image>
@@ -21,6 +21,14 @@
       <image:loc>https://avstack.es/assets/logo-original.png</image:loc>
       <image:title>Logo AVStack — Desarrollo Web Sevilla, Andalucía</image:title>
     </image:image>
+  </url>
+
+  <!-- Sobre mí -->
+  <url>
+    <loc>https://avstack.es/about</loc>
+    <lastmod>2026-03-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
 
 
