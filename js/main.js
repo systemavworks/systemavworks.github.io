@@ -239,3 +239,14 @@ document.querySelectorAll('.faq__question').forEach(btn => {
 // Console message (privacy-focused)
 console.log('%c🛡️ AVStack - Privacidad por Diseño', 'color: #8b5cf6; font-size: 14px; font-weight: bold;');
 console.log('%cSin tracking. Sin analytics. Solo código limpio.', 'color: #a0a0b0; font-size: 12px;');
+
+// ---- Back to top ----
+const backToTopBtn = document.getElementById('backToTop');
+if (backToTopBtn) {
+  window.addEventListener('scroll', () => {
+    backToTopBtn.classList.toggle('visible', window.scrollY > 500);
+  }, { passive: true });
+  backToTopBtn.addEventListener('click', () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
+}

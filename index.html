@@ -147,9 +147,16 @@
         <img src="/assets/logo-original.png" class="logo__img" alt="AVStack" width="52" height="52"/>
         <span class="logo__name">AVStack</span>
       </a>
-      <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">☰</button>
+      <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+        <span class="hamburger" aria-hidden="true">
+          <span class="hamburger__line"></span>
+          <span class="hamburger__line"></span>
+          <span class="hamburger__line"></span>
+        </span>
+      </button>
       <nav class="nav" id="mainNav">
         <a href="#servicios" class="nav__link">Servicios</a>
+        <a href="#precios" class="nav__link">Precios</a>
         <a href="#stack" class="nav__link">Stack</a>
         <a href="#proyectos" class="nav__link">Proyectos</a>
         <a href="#contacto" class="nav__link nav__link--cta">Presupuesto</a>
@@ -228,6 +235,12 @@
           <span class="orbit__item orbit__item--4">Java</span>
         </div>
       </div>
+    </div>
+    <div class="hero__scroll-indicator" aria-hidden="true">
+      <div class="hero__scroll-mouse">
+        <div class="hero__scroll-wheel"></div>
+      </div>
+      <span class="hero__scroll-text">Explorar</span>
     </div>
   </section>
 
@@ -377,6 +390,81 @@
           <a href="mailto:contacto@avstack.es?subject=Consulta%3A%20Mantenimiento%20y%20Soporte" class="card__link">Solicitar soporte →</a>
         </article>
       </div>
+    </div>
+  </section>
+
+  <!-- ===== PRICING ===== -->
+  <section id="precios" class="pricing">
+    <div class="container">
+      <div class="section__header" data-animate>
+        <span class="section__label">Precios transparentes</span>
+        <h2 class="section__title">Sin sorpresas ni letra pequeña</h2>
+        <p class="section__desc">Precios reales para proyectos reales. Siempre presupuesto detallado antes de comprometerte con nada.</p>
+      </div>
+      <div class="pricing__grid" data-stagger>
+
+        <article class="pricing__card">
+          <div class="pricing__header">
+            <span class="pricing__label">Starter</span>
+            <div class="pricing__price">
+              <span class="pricing__from">desde</span>
+              <span class="pricing__amount">350€</span>
+            </div>
+            <p class="pricing__subtitle">Landing page o web simple</p>
+          </div>
+          <ul class="pricing__features">
+            <li>✓ Diseño responsive y moderno</li>
+            <li>✓ SEO técnico básico</li>
+            <li>✓ Formulario de contacto</li>
+            <li>✓ 1 ronda de revisiones</li>
+            <li>✓ Entrega en 2 semanas</li>
+          </ul>
+          <a href="mailto:contacto@avstack.es?subject=Consulta%3A%20Plan%20Starter" class="btn btn--outline btn--block">Solicitar presupuesto</a>
+        </article>
+
+        <article class="pricing__card pricing__card--featured">
+          <div class="pricing__badge">Más popular</div>
+          <div class="pricing__header">
+            <span class="pricing__label">Business</span>
+            <div class="pricing__price">
+              <span class="pricing__from">desde</span>
+              <span class="pricing__amount">900€</span>
+            </div>
+            <p class="pricing__subtitle">Web corporativa o e-commerce</p>
+          </div>
+          <ul class="pricing__features">
+            <li>✓ Todo lo de Starter</li>
+            <li>✓ Hasta 10 páginas / secciones</li>
+            <li>✓ CMS o panel de administración</li>
+            <li>✓ Optimización de conversión</li>
+            <li>✓ 3 rondas de revisiones</li>
+            <li>✓ Entrega en 4 semanas</li>
+            <li>✓ 1 mes de soporte gratuito</li>
+          </ul>
+          <a href="mailto:contacto@avstack.es?subject=Consulta%3A%20Plan%20Business" class="btn btn--primary btn--block">Solicitar presupuesto</a>
+        </article>
+
+        <article class="pricing__card">
+          <div class="pricing__header">
+            <span class="pricing__label">Enterprise</span>
+            <div class="pricing__price">
+              <span class="pricing__amount pricing__amount--custom">A medida</span>
+            </div>
+            <p class="pricing__subtitle">App Android o proyecto complejo</p>
+          </div>
+          <ul class="pricing__features">
+            <li>✓ App Android nativa (Kotlin)</li>
+            <li>✓ Backend + API personalizada</li>
+            <li>✓ Integraciones y pasarelas de pago</li>
+            <li>✓ Revisiones ilimitadas</li>
+            <li>✓ Arquitectura escalable</li>
+            <li>✓ 3 meses de soporte post-lanzamiento</li>
+          </ul>
+          <a href="mailto:contacto@avstack.es?subject=Consulta%3A%20Plan%20Enterprise" class="btn btn--outline btn--block">Hablemos →</a>
+        </article>
+
+      </div>
+      <p class="pricing__note">💡 ¿No sabes qué necesitas? <a href="mailto:contacto@avstack.es" style="color:var(--accent-primary)">Cuéntame tu idea</a> y te orientaré sin compromiso.</p>
     </div>
   </section>
 
@@ -537,6 +625,56 @@
           <p class="project__desc">Identidad visual completa desde cero: naming, logotipo, paleta de color, tipografía y guía de estilo. Una marca coherente y profesional que transmite confianza en cada punto de contacto.</p>
           <a href="mailto:contacto@avstack.es?subject=Consulta%3A%20Dise%C3%B1o%20de%20Marca%20e%20Identidad%20Visual" class="card__link">Consultar proyecto →</a>
         </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== TESTIMONIALS ===== -->
+  <section class="testimonials">
+    <div class="container">
+      <div class="section__header" data-animate>
+        <span class="section__label">Clientes satisfechos</span>
+        <h2 class="section__title">Lo que dicen nuestros clientes</h2>
+        <p class="section__desc">Resultados reales de proyectos reales. La confianza se construye proyecto a proyecto.</p>
+      </div>
+      <div class="testimonials__grid" data-stagger>
+
+        <blockquote class="testimonial">
+          <div class="testimonial__stars">★★★★★</div>
+          <p class="testimonial__text">"Entregaron nuestra web corporativa en el plazo acordado y sin sorpresas en el precio. El resultado superó nuestras expectativas y ya notamos la mejora en posicionamiento Google."</p>
+          <footer class="testimonial__footer">
+            <div class="testimonial__avatar">MR</div>
+            <div>
+              <strong class="testimonial__name">María R.</strong>
+              <span class="testimonial__role">Directora · Consultoría PYME, Sevilla</span>
+            </div>
+          </footer>
+        </blockquote>
+
+        <blockquote class="testimonial">
+          <div class="testimonial__stars">★★★★★</div>
+          <p class="testimonial__text">"Víctor fue transparente en todo momento, explicando cada decisión técnica sin tecnicismos. La app Android quedó exactamente como necesitábamos, con un rendimiento impecable."</p>
+          <footer class="testimonial__footer">
+            <div class="testimonial__avatar">JL</div>
+            <div>
+              <strong class="testimonial__name">José L.</strong>
+              <span class="testimonial__role">Fundador · Startup, Málaga</span>
+            </div>
+          </footer>
+        </blockquote>
+
+        <blockquote class="testimonial">
+          <div class="testimonial__stars">★★★★★</div>
+          <p class="testimonial__text">"La migración de nuestra tienda online fue impecable. Cero tiempo de inactividad, carga ultrarrápida y el código es nuestro. Lo más valioso: hablas directamente con quien programa."</p>
+          <footer class="testimonial__footer">
+            <div class="testimonial__avatar">AP</div>
+            <div>
+              <strong class="testimonial__name">Ana P.</strong>
+              <span class="testimonial__role">E-commerce Manager · Granada</span>
+            </div>
+          </footer>
+        </blockquote>
+
       </div>
     </div>
   </section>
@@ -715,6 +853,10 @@
   </a>
 
   <!-- ===== SCRIPTS ===== -->
+  <button class="back-to-top" id="backToTop" aria-label="Volver arriba" title="Volver arriba">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 15l-6-6-6 6"/></svg>
+  </button>
+
   <script src="/js/main.js?v=1.0.0" defer></script>
 </body>
 </html>
