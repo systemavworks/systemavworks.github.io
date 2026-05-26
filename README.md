@@ -1,4 +1,4 @@
-# AV Works System — AVStack
+# Systema Vworks — AVStack
 
 [![Website](https://img.shields.io/badge/Web-avstack.es-8b5cf6?style=flat-square&logo=googlechrome&logoColor=white)](https://avstack.es)
 [![GitHub Pages](https://img.shields.io/badge/Hosted-GitHub_Pages-black?style=flat-square&logo=github)](https://systemavworks.github.io)
@@ -6,7 +6,7 @@
 [![PWA](https://img.shields.io/badge/PWA-Ready-10b981?style=flat-square)](https://avstack.es/manifest.json)
 [![Performance](https://img.shields.io/badge/Assets-Optimizados-10b981?style=flat-square)](#-assets--rendimiento)
 
-Sitio web corporativo de **AV Works System / AVStack** — equipo de Desarrollo Web Fullstack y Android con sede en Andalucía, España. Construido con HTML, CSS y JavaScript puro. Sin frameworks. Sin tracking. Privacidad por diseño.
+Sitio web corporativo de **Systema Vworks / AVStack** — equipo de Desarrollo Web Fullstack y Android con sede en Andalucía, España. Construido con HTML, CSS y JavaScript puro. Sin frameworks. Sin tracking. Privacidad por diseño.
 
 ---
 
@@ -184,10 +184,10 @@ Contacto de seguridad: `contacto@avstack.es` | [security.txt](/.well-known/secur
 
 ## 📄 Licencia
 
-Copyright 2026 AV Works System / AVStack  
+Copyright 2026 Systema Vworks / AVStack  
 Distribuido bajo licencia **Apache 2.0** — ver [LICENSE](LICENSE).
 
-El logo, marca y nombre "AV Works System" / "AVStack" son propiedad de sus titulares y no están incluidos en la licencia open source.
+El logo, marca y nombre "Systema Vworks" / "AVStack" son propiedad de sus titulares y no están incluidos en la licencia open source.
 
 ---
 
