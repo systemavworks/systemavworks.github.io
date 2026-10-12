@@ -42,16 +42,14 @@
   <link rel="alternate" type="text/plain" title="LLM info" href="/llm.txt"/>
   
   <!-- Preload crítico -->
-  <link rel="preload" href="/css/styles.css?v=2.0.0" as="style"/>
-  <link rel="preload" href="/js/main.js?v=1.0.0" as="script"/>
+  <link rel="preload" href="/css/styles.css?v=2.3.0" as="style"/>
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com"/>
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet"/>
   
   <!-- Styles -->
-  <link rel="stylesheet" href="/css/styles.css?v=2.0.0"/>
-  
+  <link rel="stylesheet" href="/css/styles.css?v=2.3.0"/>
   <!-- Schema.org JSON-LD -->
   <script type="application/ld+json">
   {
@@ -62,7 +60,7 @@
     "url": "https://avstack.es",
     "logo": "https://avstack.es/assets/logo-original.png",
     "image": "https://avstack.es/og-image.jpg",
-    "description": "Desarrollo web y apps Android a medida en Andalucía, España. Webs corporativas, e-commerce, PWAs y apps nativas en Kotlin. Sin rastreos. RGPD.",
+    "description": "Desarrollo web, apps Android, montaje de servidores y videovigilancia en Andalucía, España. Soluciones a medida, seguras y sin rastreos.",
     "email": "contacto@avstack.es",
     "address": {
       "@type": "PostalAddress",
@@ -116,6 +114,14 @@
             "name": "Progressive Web Apps (PWA)",
             "description": "Aplicaciones web instalables y offline-first. Andalucía y España."
           }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Montaje de servidores y videovigilancia",
+            "description": "Instalación y configuración de servidores NAS, redes PoE, CCTV, acceso remoto seguro, copias de seguridad y monitorización IoT."
+          }
         }
       ]
     },
@@ -123,7 +129,7 @@
       "https://github.com/systemavworks",
       "https://guardianos.es"
     ],
-    "knowsAbout": ["Desarrollo Web", "Desarrollo Android", "Java", "JavaScript", "TypeScript", "Node.js", "Kotlin", "Jetpack Compose", "React", "Progressive Web Apps", "Ciberseguridad", "Privacy by Design"],
+    "knowsAbout": ["Desarrollo Web", "Desarrollo Android", "Java", "JavaScript", "TypeScript", "Node.js", "Kotlin", "Jetpack Compose", "React", "Progressive Web Apps", "Ciberseguridad", "Servidores NAS", "Videovigilancia IP", "WireGuard", "Automatización IoT", "Privacy by Design"],
     "contactPoint": {
       "@type": "ContactPoint",
       "email": "contacto@avstack.es",
@@ -147,7 +153,7 @@
         <img src="/assets/logo-original.png" class="logo__img" alt="AVStack" width="52" height="52"/>
         <span class="logo__name">AVStack</span>
       </a>
-      <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+      <button class="nav-toggle" aria-label="Abrir o cerrar menú" aria-expanded="false">
         <span class="hamburger" aria-hidden="true">
           <span class="hamburger__line"></span>
           <span class="hamburger__line"></span>
@@ -156,6 +162,7 @@
       </button>
       <nav class="nav" id="mainNav">
         <a href="#servicios" class="nav__link">Servicios</a>
+        <a href="#servidores" class="nav__link">Servidores</a>
         <a href="#precios" class="nav__link">Precios</a>
         <a href="#stack" class="nav__link">Stack</a>
         <a href="#proyectos" class="nav__link">Proyectos</a>
@@ -185,6 +192,11 @@
         <p class="hero__subtitle">
           Creamos tu web o aplicación con tecnología profesional,
           enfocada en resultados reales y con soporte cercano desde el primer día.
+        </p>
+        <p class="hero__subtitle hero__subtitle--infra">
+          <span class="hero__infra-title text-gradient">Servidores + videovigilancia</span>
+          Tu negocio, seguro, conectado y siempre bajo control. Instalamos acceso remoto protegido, copias de seguridad y monitorización IoT.
+          <a href="#servidores" class="hero__infra-link">Descubre la solución →</a>
         </p>
         <div class="hero__actions">
           <a href="#contacto" class="btn btn--primary btn--pulse">
@@ -390,6 +402,84 @@
           <p class="card__desc">Actualizaciones, monitorización y soporte técnico continuo. Tu proyecto siempre seguro, actualizado y funcionando.</p>
           <a href="mailto:contacto@avstack.es?subject=Consulta%3A%20Mantenimiento%20y%20Soporte" class="card__link">Solicitar soporte →</a>
         </article>
+        <article class="card">
+          <div class="card__header">
+            <div class="card__icon">🖥️</div>
+            <span class="card__num">07</span>
+          </div>
+          <h3 class="card__title">Montaje de servidores + videovigilancia</h3>
+          <p class="card__desc">Servidor, red PoE y cámaras integrados con acceso remoto seguro, copias de seguridad y monitorización IoT.</p>
+          <a href="#servidores" class="card__link">Ver instalación y funciones →</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SERVERS & VIDEO SURVEILLANCE ===== -->
+  <section id="servidores" class="server-service">
+    <div class="container">
+      <div class="section__header" data-animate>
+        <span class="section__label">Infraestructura y seguridad física</span>
+        <h2 class="section__title">Montaje de servidores + videovigilancia</h2>
+        <p class="section__desc">Diseñamos, instalamos y dejamos conectados los sistemas de almacenamiento, cámaras y monitorización de tu negocio, con una hoja de ruta preparada para crecer.</p>
+      </div>
+      <div class="server-service__grid" data-stagger>
+        <article class="card server-service__card">
+          <div class="card__header">
+            <div class="card__icon">🧰</div>
+            <span class="card__num">FASE 01</span>
+          </div>
+          <h3 class="card__title">Diseño e instalación física</h3>
+          <ul class="server-service__features">
+            <li>Servidor NAS y discos configurados con redundancia para datos y grabaciones.</li>
+            <li>Montaje de rack, SAI y cableado estructurado Cat6.</li>
+            <li>Switch PoE para conectar y alimentar cámaras, equipos y nodos compatibles.</li>
+            <li>Comprobación de conectividad, carga y estabilidad de los puestos.</li>
+          </ul>
+        </article>
+        <article class="card server-service__card">
+          <div class="card__header">
+            <div class="card__icon">📹</div>
+            <span class="card__num">FASE 02</span>
+          </div>
+          <h3 class="card__title">Videovigilancia centralizada</h3>
+          <ul class="server-service__features">
+            <li>Instalación de cámaras IP y gestión centralizada con Surveillance Station.</li>
+            <li>Grabación por movimiento y analíticas de entrada cuando la cámara lo permite.</li>
+            <li>Consulta local y remota desde móvil, con visualización de varias ubicaciones.</li>
+            <li>Configuración respetuosa con privacidad: sin audio y con retención ajustable.</li>
+          </ul>
+        </article>
+        <article class="card server-service__card">
+          <div class="card__header">
+            <div class="card__icon">🔐</div>
+            <span class="card__num">FASE 03</span>
+          </div>
+          <h3 class="card__title">Acceso, copias y protección</h3>
+          <ul class="server-service__features">
+            <li>Usuarios, permisos por rol y carpetas compartidas para cada equipo.</li>
+            <li>Acceso remoto cifrado con WireGuard o DDNS, autenticación en dos pasos y credenciales robustas.</li>
+            <li>Estrategia de copias 3-2-1: soporte local y réplica externa cifrada según necesidades.</li>
+            <li>Revisión de seguridad, servicios innecesarios y actualizaciones críticas.</li>
+          </ul>
+        </article>
+        <article class="card server-service__card">
+          <div class="card__header">
+            <div class="card__icon">🌡️</div>
+            <span class="card__num">FASE 04</span>
+          </div>
+          <h3 class="card__title">Monitorización IoT y expansión</h3>
+          <ul class="server-service__features">
+            <li>Sensores para cadena de frío, temperatura y humedad, fugas de agua y estado de puertas.</li>
+            <li>Integración ESP32 y MQTT con almacenamiento de métricas y paneles en Grafana.</li>
+            <li>Automatizaciones y avisos con Node-RED ante eventos operativos.</li>
+            <li>Conexión cifrada entre sedes y telemetría centralizada sobre VPN.</li>
+          </ul>
+        </article>
+      </div>
+      <div class="server-service__handover">
+        <p>El proyecto incluye pruebas de puesta en marcha, documentación y formación para que el equipo pueda gestionar archivos, cámaras, copias y paneles.</p>
+        <a href="mailto:contacto@avstack.es?subject=Consulta%3A%20Servidores%20y%20videovigilancia" class="btn btn--primary">Consultar instalación →</a>
       </div>
     </div>
   </section>
@@ -793,6 +883,7 @@
           <a href="#servicios" class="footer__nav-link">E-commerce & PWAs</a>
           <a href="#servicios" class="footer__nav-link">Backend & APIs</a>
           <a href="#servicios" class="footer__nav-link">Seguridad & Auditoría</a>
+          <a href="#servidores" class="footer__nav-link">Servidores y videovigilancia</a>
         </nav>
         <div class="footer__contact">
           <h4 class="footer__nav-title">Contacto</h4>
@@ -817,7 +908,7 @@
   <style>
     @media (max-width: 768px) {
       .whatsapp-float {
-        bottom: 5rem !important;
+        bottom: 1rem !important;
         right: 1rem !important;
         height: 54px !important;
         width: 54px !important;
@@ -842,7 +933,6 @@
   <a
     href="https://wa.me/34611085046?text=Hola%2C%20me%20gustar%C3%ADa%20pedir%20presupuesto%20para%20mi%20proyecto"
     class="whatsapp-float"
-    style="position:fixed!important;bottom:2.5rem!important;right:2.5rem!important;left:auto!important;top:auto!important;z-index:99999!important;display:flex!important;align-items:center!important;gap:0.65rem!important;height:66px!important;padding:0 1.6rem 0 1.2rem!important;border-radius:999px!important;background:#25d366!important;color:#fff!important;text-decoration:none!important;"
     target="_blank"
     rel="noopener noreferrer"
     aria-label="Contactar por WhatsApp"

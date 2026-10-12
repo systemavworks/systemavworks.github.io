@@ -3,7 +3,7 @@
 // Estrategia: Cache-First para assets, Network-First para HTML
 // =====================================================
 
-const CACHE_VERSION = 'avstack-v2';
+const CACHE_VERSION = 'avstack-v3';
 const STATIC_CACHE = `${CACHE_VERSION}-static`;
 const DYNAMIC_CACHE = `${CACHE_VERSION}-dynamic`;
 
