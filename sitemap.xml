@@ -9,17 +9,17 @@
   <!-- Página principal -->
   <url>
     <loc>https://avstack.es/</loc>
-    <lastmod>2026-03-14</lastmod>
+    <lastmod>2026-10-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
     <image:image>
       <image:loc>https://avstack.es/og-image.jpg</image:loc>
-      <image:title>AVStack — Desarrollo Web y Apps Android en Sevilla, Andalucía, España</image:title>
-      <image:caption>Empresa de desarrollo web y apps Android a medida en Sevilla (CP 41000), Andalucía. Webs corporativas, e-commerce, PWAs y apps nativas en Kotlin. Presupuesto sin compromiso.</image:caption>
+      <image:title>AVStack — Servidores, videovigilancia y desarrollo en Sevilla</image:title>
+      <image:caption>Instalación, configuración, puesta en marcha y mantenimiento de servidores NAS y videovigilancia IP en Sevilla para locales, oficinas y naves industriales. Infraestructura propia, sin nube ni bases de datos de terceros.</image:caption>
     </image:image>
     <image:image>
       <image:loc>https://avstack.es/assets/logo-original.png</image:loc>
-      <image:title>Logo AVStack — Desarrollo Web Sevilla, Andalucía</image:title>
+      <image:title>Logo AVStack — Servidores y videovigilancia en Sevilla</image:title>
     </image:image>
   </url>
 
